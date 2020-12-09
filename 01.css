@@ -29,6 +29,7 @@ nav .nav_1{
     font-weight: bold;
     text-decoration: none;
     color:white;
+    
 
 }
 .nav{
@@ -44,6 +45,7 @@ nav .nav_1{
 .nav li  a{
    display: flex; 
    text-decoration: none;
+    
    right: 25px;
    font-size: 20px;
    font-weight: 900; 
@@ -59,6 +61,9 @@ a:hover{
 @media(max-width:700px){
     nav {
         flex-direction:column ;
+    }
+    .nav{
+        flex-direction: column;
     }
     
 }
@@ -107,4 +112,12 @@ button{
 footer{
       display: flex;
        justify-content: space-evenly;
+}
+.href{
+    text-decoration: none;
+    
+}
+.href:hover{
+    border-bottom: 5px solid;
+    color: white;
 }
