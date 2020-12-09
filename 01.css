@@ -1,8 +1,12 @@
+
 body{
   background-color:  rgba(0, 0, 0, 0.904)
 
 }
+.body{
+    height: 100%;
 
+}
 nav{
     display: flex;
     max-width: 776px;
@@ -63,7 +67,7 @@ header{
     align-content: stretch;
     max-width: 776px;
     margin: 0 auto;
-    
+    justify-content: space-evenly;
 
 }
 .header{
@@ -95,4 +99,7 @@ button{
     padding-bottom: 10px;
     border-radius: 5px;
 }
-
+footer{
+      display: flex;
+       justify-content: space-evenly;
+}
