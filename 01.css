@@ -30,14 +30,15 @@ nav .nav_1{
 .nav li{
     display: flex;
     justify-content:flex-end;
+    padding: 0 20px;
 }
 .nav li  a{
    display: flex; 
    text-decoration: none;
    right: 25px;
    font-size: 20px;
-   font-weight: 900;
-   padding: 20px;
+   font-weight: 900; 
+
    color: white;
 }
 a:hover{
