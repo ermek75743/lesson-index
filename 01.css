@@ -1,0 +1,50 @@
+body{
+  background-color:  rgba(0, 0, 0, 0.904)
+}
+
+nav{
+    display: flex;
+    max-width: 776px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    @import url ('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 1,700 & display = swap');
+
+
+
+}
+nav .nav_1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+
+}
+.nav{
+    display: flex;
+    justify-content: flex-start
+
+}
+.nav li{
+    display: flex;
+    justify-content:flex-end;
+}
+.nav li  a{
+   display: flex; 
+   text-decoration: none;
+   right: 25px;
+   font-size: 20px;
+   font-weight: 900;
+   padding: 20px;
+   color: white;
+}
+a:hover{
+   text-decoration: underline;
+    
+}
+.nav li a:hover{
+     text-decoration: underline;
+
+}
