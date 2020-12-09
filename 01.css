@@ -68,7 +68,7 @@ header{
 }
 .header{
     display: flex;
-    align-content: flex-end;
+    
 }
 h1{
     display: flex;
@@ -82,5 +82,17 @@ p{
  font-weight: 600;
  color: white;
  max-width: 557px;text-align: center;
+ line-height: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
 }
 
