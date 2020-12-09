@@ -1,5 +1,6 @@
 body{
   background-color:  rgba(0, 0, 0, 0.904)
+
 }
 
 nav{
@@ -54,4 +55,32 @@ a:hover{
     nav {
         flex-direction:column ;
     }
+    
 }
+
+header{
+    display: flex;
+    align-content: stretch;
+    max-width: 776px;
+    margin: 0 auto;
+    
+
+}
+.header{
+    display: flex;
+    align-content: flex-end;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 45px;
+   font-weight: 900;
+}
+p{
+ font-size: 25px; 
+ font-weight: 600;
+ color: white;
+ max-width: 557px;text-align: center;
+}
+
