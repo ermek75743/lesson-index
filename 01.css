@@ -41,10 +41,16 @@ nav .nav_1{
    color: white;
 }
 a:hover{
-   text-decoration: underline;
-    
+   
+   border-bottom: 5px solid;
 }
 .nav li a:hover{
-     text-decoration: underline;
+    
+     border-bottom: 5px solid;
 
+}
+@media(max-width:700px){
+    nav {
+        flex-direction:column ;
+    }
 }
