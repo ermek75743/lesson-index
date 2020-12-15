@@ -4,28 +4,32 @@
     box-sizing: border-box;
 }
 body{
-   height: 100%;
-   background-color: #212529;
-   font-weight: 300;
-   font-family:'Roboto'sans-serif ;
-   padding: 0;
-   margin: 0;
-   height: 100%;
+    height: 100%;
+    background-color: #212529;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
 }
 html{
     padding: 0;
     margin: 0;
-    height: 100%;;
+    height: 100%;
 }
 .conteiner{
     width: 100%;
     max-width: 650px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
     height: 100%;
 }
 header{
+    margin-bottom: auto;
+}
+header nav{
+    padding-top: 20px;
     margin-bottom: auto;
 }
 header nav ul{
@@ -33,7 +37,6 @@ header nav ul{
     justify-content: center;
     padding: 0;
     margin: 0;
-
 }
 header nav ul li{
     margin: 0 10px;
@@ -44,13 +47,17 @@ header nav ul li a{
     font-size: 1rem;
     font-weight: 500;
     color: white;
-    padding-bottom: 8px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 8px;    
 }
 header nav ul li a:hover{
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid grey;   
 }
 header nav ul li a:active{
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid grey;   
+}
+header nav ul li .ahome{
+    border-bottom: 3px solid white;
 }
 header nav ul li .osta{
     color: grey;
@@ -64,4 +71,67 @@ header nav ul li .osta{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 1.75rem;
+}
+.prom-nav{
+    margin-left: 30px;
+    display: flex;
+}
+main{
+    margin-top: auto;
+}
+.main-h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.main-p{
+    font-family: 'Roboto', sans-serif;
+    max-width: 570px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+main .main-a{
+    text-align: center;
+    margin-top: 25px;
+}
+.a-button{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+footer{
+    margin-top: auto;
+}
+footer div{
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+footer div a{
+    color: white;
+}
+@media screen and (max-width:770px){
+    nav ul{
+     flex-direction: column;
+     align-items: center;
+    }
+    .text-1{
+        margin-bottom: 15px;
+    }
+    nav .prom-nav{
+       margin: 0;
+    }
 }
